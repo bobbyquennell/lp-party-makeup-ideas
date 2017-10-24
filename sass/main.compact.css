@@ -158,7 +158,7 @@ html, body { height: 80%; margin: 0; padding: 0; }
 
 .item-content figure img.thrink { width: 80%; display: initial !important; }
 
-@media only screen and (max-width: 799px) { .item-content figure img.thrink { width: 40%; } }
+@media only screen and (max-width: 799px) { .item-content figure img.thrink { width: 80%; } }
 
 .item-content figure img.instagram { width: 80%; display: initial !important; }
 
@@ -174,9 +174,9 @@ html, body { height: 80%; margin: 0; padding: 0; }
 
 .item-content .play { position: absolute; top: 39%; left: 44%; width: 11% !important; height: 23% !important; opacity: .6; transition: 300ms ease-in-out; }
 
-.title-md { font-size: 40px; font-size: 2.5rem; font-family: "Interstate-BlackCond", sans-serif; margin: 10px 10px; }
+.title-md { font-size: 30px; font-size: 1.875rem; font-family: "Interstate-BlackCond", sans-serif; margin: 10px 10px; }
 
-@media only screen and (max-width: 40em) { .title-md { font-size: 40px; font-size: 2.5rem; } }
+@media only screen and (max-width: 40em) { .title-md { font-size: 30px; font-size: 1.875rem; } }
 
 @media only screen and (max-width: 30em) { .title-md { font-size: 30px; font-size: 1.875rem; } }
 
@@ -186,7 +186,7 @@ html, body { height: 80%; margin: 0; padding: 0; }
 
 @media only screen and (max-width: 30em) { .title-lg { font-size: 30px; font-size: 1.875rem; } }
 
-.title-sm { width: 80%; font-size: 20px; font-size: 1.25rem; font-family: "Interstate-BoldCond", sans-serif; text-transform: uppercase; color: #231f20; margin: auto; }
+.title-sm { width: 80%; font-size: 20px; font-size: 1.25rem; font-family: "Interstate-BoldCond", sans-serif; color: #231f20; margin: auto; }
 
 @media only screen and (max-width: 40em) { .title-sm { font-size: 16px; font-size: 1rem; width: 100%; } }
 

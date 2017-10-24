@@ -25,7 +25,7 @@ var Site;
       $('.carousel-product').slick({
         infinite: true,
         dots: true,
-        arrows: false,
+        arrows: true,
         responsive: [
           {
             breakpoint: 2000,

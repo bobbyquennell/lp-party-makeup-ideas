@@ -99,7 +99,7 @@ body {
     background-size: contain;
     // @include bp-medium {
     //   background: url("../images/bg_header_mobile.jpg") no-repeat;
-    //   // background-size: contain;
+    //   //background-size: contain;
     // };
     article {
       padding-top: 30%;
@@ -308,7 +308,7 @@ body {
       &.thrink {
         width: 80%;
         @include breakpoint(799px) {
-          width: 40%;
+          width: 80%;
         };
         display: initial !important;
       }
@@ -354,9 +354,9 @@ body {
 }
 
 .title-md {
-  @include font-size(40px);
+  @include font-size(30px);
   @include bp-medium {
-    @include font-size(40px);
+    @include font-size(30px);
   };
   @include bp-small {
     @include font-size(30px);
@@ -389,7 +389,7 @@ body {
     width: 80%;
   };
   font-family: $font-boldcond;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   color: $black;
   margin: auto;
 }
